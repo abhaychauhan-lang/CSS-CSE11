@@ -1,13 +1,37 @@
-h2{
+/* h2{
     color: aqua;
 }
 p{
     color: brown;
     text-align: center;
+    font-size: 25px;
 }
 .par{
     color: chartreuse;
 }
 #jk{
     color:black;
+}
+div{
+    height: 200px;
+    width: 200px;
+    color:cadetblue;
+    background-color: red;
+    text-align: center;
+    align-content: center;
+    padding: 10px;
+    margin: 100px;
+    border: 10px solid black;
+} */
+
+p{
+    color: red;
+
+}
+h1{
+    text-align: center;
+}
+div{
+    border: 10px solid black;
+    margin: 100px;
 }

@@ -24,7 +24,7 @@ div{
     border: 10px solid black;
 } */
 
-p{
+/* p{
     color: red;
 
 }
@@ -35,3 +35,45 @@ div{
     border: 10px solid black;
     margin: 100px;
 }
+.jk{
+    display:block;
+}
+.jk1{
+    display:inline;
+} */
+
+/* div{
+    height: 200px;
+    width: 200px;
+    color: aliceblue;
+    padding: 10px;
+
+} */
+
+.box{
+    display:inline;
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.box1{
+    height: 1000px;
+    width: 1000px;
+    padding: 10px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+div{
+    height: 500px;
+    width: 1000px;
+    padding: 20px;
+    border: 5px solid black;
+    background-color: palevioletred;
+
+}
+img{
+    float: left;
+}
+
+

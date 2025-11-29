@@ -50,7 +50,7 @@ div{
 
 } */
 
-.box{
+/* .box{
     display:inline;
     height: 200px;
     width: 200px;
@@ -76,4 +76,34 @@ img{
     float: left;
 }
 
+ */
+.container{
+    display: flex;
+    height: 600px;
+    width: 1500px;
+    background-color: aliceblue;
+    border: 1px solid black;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
 
+}
+.item{
+    height: 100px;
+    width: 100px;
+    border: 1px solid brown;
+    align-content: center;
+    background-color: blue;
+    flex-grow: 1;
+    flex-shrink: 2;
+    
+}
+.item2{
+    order: -1;
+    flex-shrink: 2;
+    align-self: flex-end;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries Layout</title>
+
+    <style>
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header, footer{
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container{
+            display: flex;
+            min-height: 80vh;
+        }
+
+        .sidebar{
+            width: 25%;
+            background: #eee;
+            padding: 20px;
+        }
+
+        .content{
+            width: 75%;
+            padding: 20px;
+            background: #f9f9f9;
+        }
+
+        /* ------------------------------
+           MEDIA QUERIES
+        --------------------------------*/
+
+        /* 1️⃣ Tablet devices (max-width: 768px) */
+        @media(max-width: 768px){
+            .container{
+                flex-direction: column;
+                background-color: blue;
+            }
+            .sidebar, .content{
+                width: 100%;
+            }
+        }
+
+        /* 2️⃣ Mobile devices (max-width: 480px) */
+        @media(max-width: 480px){
+            header, footer{
+                font-size: 16px;
+                padding: 10px;
+            }
+            .sidebar{
+                background: #ddd;
+            }
+            .content{
+                background: #fff;
+            }
+        } li{
+   list-style-type: none;
+  }
+  nav ul{
+   display: flex;
+   justify-content: space-around;
+   background-color: bisque;
+   display: flex;
+   display: block;
+   flex-direction: column-reverse;
+  }
+
+        
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Page Layout</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar">
+            <nav><ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul></nav>
+
+</body>
+</html>
+
